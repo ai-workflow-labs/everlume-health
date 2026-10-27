@@ -1,0 +1,10 @@
+# Staging mock-up: block all crawling. Production robots.txt below is what launches.
+User-agent: *
+Disallow: /
+
+# --- Production version (at launch) ---
+# User-agent: *
+# Disallow: /wp-admin/
+# Allow: /wp-admin/admin-ajax.php
+# Disallow: /?s=
+# Sitemap: https://www.everlumehealth.com/sitemap_index.xml
